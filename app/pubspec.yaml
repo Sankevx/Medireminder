@@ -1,0 +1,23 @@
+name: medireminder
+description: Gestión y seguimiento de tratamientos farmacológicos.
+publish_to: none
+version: 0.1.0
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: 19.5.0
+  flutter_timezone: ^5.1.1
+  http: ^1.2.1
+  shared_preferences: ^2.5.6
+  table_calendar: ^3.1.2
+  timezone: 0.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true

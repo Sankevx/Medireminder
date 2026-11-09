@@ -1,0 +1,9 @@
+**/.env
+!**/.env.example
+**/node_modules/
+app/.dart_tool/
+app/.flutter-plugins-dependencies
+app/build/
+app/android/local.properties
+app/android/.gradle/
+app/android/app/build/
